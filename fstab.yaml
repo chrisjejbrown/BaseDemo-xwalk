@@ -1,7 +1,7 @@
 mountpoints:
 
   /: https://drive.google.com/drive/folders/19EOMYDScsT-QErvSd9SMlvzih7XaSnNs
-  #/:
-  #  url: "https://author-p99452-e916802.adobeaemcloud.com/bin/franklin.delivery/tuckerelliott/sol-sc-boilerplate-xwalk/main"
-  #  type: "markup"
-  #  suffix: ".html"
+  /:
+    url: "https://author-p107109-e1000961/bin/franklin.delivery/chrisjejbrown/BaseDemo-sol-sc-boilerplate-xwalk/main"
+    type: "markup"
+    suffix: ".html"
