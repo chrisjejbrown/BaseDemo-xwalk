@@ -1,6 +1,3 @@
 mountpoints:
   /: https://drive.google.com/drive/folders/1tBykjnCT_wVF4tuwTdYYbTw7HJC7ZXno
-  /:
-    url: https://author-p107109-e1000961/bin/franklin.delivery/chrisjejbrown/BaseDemo-xwalk-sol-sc-boilerplate/main
-    type: "markup"
-    suffix: ".html"
+
