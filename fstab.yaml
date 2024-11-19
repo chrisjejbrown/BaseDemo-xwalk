@@ -1,5 +1,4 @@
 mountpoints:
-
   /: https://drive.google.com/drive/folders/19EOMYDScsT-QErvSd9SMlvzih7XaSnNs
   /:
     url: "https://author-p107109-e1000961/bin/franklin.delivery/chrisjejbrown/BaseDemo-xwalk-sol-sc-boilerplate/main"
