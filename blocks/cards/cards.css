@@ -32,12 +32,12 @@
 
 /* chris */
 .cards.light > ul > li {
-  background-color: var(--background-color-light)
+  background-color: #FBEAEB;
 }
 .cards.light a.button:any-link {
-  background-color: var(--highlight-background-color)
+  background-color: #2F3C7E;
 }
-.cards.light > ul > li {  color: white;}
+.cards.light > ul > li { color: #2F3C7E}
 
 .cards.across > ul {
   display: block;
