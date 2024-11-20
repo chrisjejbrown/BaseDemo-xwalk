@@ -29,3 +29,29 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* chris */
+.cards.light > ul > li {
+  background-color: var(--background-color-light)
+}
+.cards.light a.button:any-link {
+  background-color: var(--highlight-background-color)
+}
+.cards.across > ul {
+  display: block;
+} 
+.cards.across > ul > li {
+  display: grid;
+  grid-gap: 10px;
+  grid: 'image body body';
+  grid-template-columns: 320px auto auto;
+  margin-bottom: 50px;
+}
+.cards.across .cards-card-image { grid-area: image; }
+.cards.across .cards-card-body { grid-area: body; }
+
+@media (max-width: 600px) {
+  .cards > ul > li img {
+    aspect-ratio: 1 / 2;
+  }
+}
