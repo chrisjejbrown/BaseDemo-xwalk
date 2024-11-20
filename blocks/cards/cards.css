@@ -37,6 +37,8 @@
 .cards.light a.button:any-link {
   background-color: var(--highlight-background-color)
 }
+.cards.light > ul > li {  color: white;}
+
 .cards.across > ul {
   display: block;
 } 
@@ -46,8 +48,8 @@
   grid: 'image body body';
   grid-template-columns: 320px auto auto;
   margin-bottom: 50px;
-  color: white;
 }
+
 .cards.across .cards-card-image { grid-area: image; }
 .cards.across .cards-card-body { grid-area: body; }
 
