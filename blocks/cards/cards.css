@@ -63,6 +63,6 @@
 
 @media (max-width: 600px) {
   .cards > ul > li img {
-    aspect-ratio: 1 / 2;
+    aspect-ratio: 1 / 1;
   }
 }
