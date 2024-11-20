@@ -68,4 +68,7 @@
   .cards > ul > li img {
     aspect-ratio: 1 / 1;
   }
+  .cards.across {
+  grid-template-columns: 1fr;
+  }
 }
