@@ -37,7 +37,9 @@
 .cards.light a.button:any-link {
   background-color: #2F3C7E;
 }
-.cards.light > ul > li { color: #2F3C7E};
+.cards.light > ul > li { 
+  color: #2F3C7E;
+}
 
 .cards.dark > ul > li {
   background-color: #101820;
@@ -45,7 +47,9 @@
 .cards.dark a.button:any-link {
   background-color: #FEE715;
 }
-.cards.dark > ul > li { color: white};
+.cards.dark > ul > li { 
+  color: white;
+}
 
 .cards.across > ul {
   display: block;
