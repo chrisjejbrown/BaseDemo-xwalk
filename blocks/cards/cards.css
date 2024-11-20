@@ -53,8 +53,8 @@
 .cards.across > ul > li {
   display: grid;
   grid-gap: 10px;
-  grid: 'image body body';
-  grid-template-columns: 320px auto auto;
+  grid: 'image body';
+  grid-template-columns: 320px auto;
   margin-bottom: 50px;
 }
 .cards > ul > li img {
@@ -68,7 +68,7 @@
   .cards > ul > li img {
     aspect-ratio: 1 / 1;
   }
-  .cards.across {
-  grid-template-columns: 1fr;
+  .cards.across  > ul > li {
+    display: block;
   }
 }
