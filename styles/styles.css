@@ -21,6 +21,7 @@
   --background-color: #ffffff;
   --overlay-background-color: #eeeeee;
   --highlight-background-color: #cccccc;
+  --background-color-light: #a5610f;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
