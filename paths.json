@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/basedemo-xwalk/:/",
-    "/content/basedemo-xwalk/configuration:/.helix/config.json"
+    "/content/xwalk-basedemo/:/",
+    "/content/xwalk-basedemo/configuration:/.helix/config.json"
   ]
 }
