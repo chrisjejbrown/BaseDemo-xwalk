@@ -1,5 +1,5 @@
 # Your Project's Title...
-Your project's description...
+Based off the SC boilerplate and used for general demo
 
 ## Environments
 - Preview: https://main--{repo}--{owner}.hlx.page/
