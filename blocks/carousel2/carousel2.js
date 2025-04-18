@@ -8,7 +8,7 @@ const nextButton = block.querySelector('.next');
 let currentIndex = 0;
 
 function showItem(index) {
-    carousel.style.transform = `translateX(-${index * 100}%)`;
+    carousel.style.transform = 'translateX(-${index * 100}%)';
 }
 
 prevButton.addEventListener('click', () => {
