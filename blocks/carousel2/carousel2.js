@@ -1,7 +1,7 @@
 
 export default function decorate(block) {
 const carousel = block.querySelector('.carousel2');
-const items = block.querySelectorAll('.carousel-item');
+const items = block.querySelectorAll('.carousel2>div');
 const prevButton = block.querySelector('.prev');
 const nextButton = block.querySelector('.next');
 
