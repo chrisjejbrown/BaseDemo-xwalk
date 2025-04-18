@@ -1,7 +1,9 @@
-const carousel = document.querySelector('.carousel2');
-const items = document.querySelectorAll('.carousel-item');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+
+export default function decorate(block) {
+const carousel = block.querySelector('.carousel2');
+const items = block.querySelectorAll('.carousel-item');
+const prevButton = block.querySelector('.prev');
+const nextButton = block.querySelector('.next');
 
 let currentIndex = 0;
 
@@ -20,3 +22,4 @@ nextButton.addEventListener('click', () => {
 });
 
 showItem(currentIndex);
+}
